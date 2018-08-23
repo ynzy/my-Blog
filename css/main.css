@@ -1,4 +1,4 @@
-body {
+html,body {
     font-size: 14px;
 }
 .container{
@@ -16,7 +16,7 @@ body {
 
 /*header start*/
 .nav-header {
-    
+    top: 0;  
     width: 100%;
     height: 90px;
     background-color: rgb(44, 62, 80);
@@ -146,13 +146,9 @@ body {
 
 /*footer start*/
 .footer {
-    display:block;
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
-    height: 40px;
-    left:0;
-    right:0;
     color:#fff;
     background-color: rgb(44, 62, 80);
     margin-top: 80px;
@@ -237,12 +233,12 @@ body {
 
 }
     .open-all-list {
-        float: left;
+        /* float: left; */
         width: 35%;
         margin-right: 10%;
         margin-bottom: 20px;
+        border: 1px solid #ddd;
         padding: 5px;
-        border:1px solid #ddd;
         box-sizing: border-box;
         /* background-color: red; */
     }
@@ -261,6 +257,7 @@ body {
     .open-list-num {
         height: 30px;
         text-align: center;
+        padding-bottom: 15px;
     } 
         .open-list-subhead {
             font-size: 14px;
@@ -268,6 +265,7 @@ body {
             line-height: 25px;
             height: 75px;
             text-align: center;
+            
         }
 /*open end*/
 
