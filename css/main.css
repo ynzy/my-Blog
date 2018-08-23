@@ -216,6 +216,7 @@ body {
     }
 /*archive end*/
 
+/*tags start*/
 .tags {
     width: 700px;
     height: 140px;
@@ -226,4 +227,65 @@ body {
     display: inline-block;
     margin: 10px;
 }
+/*tags end*/
 
+/*open start*/
+.open-all-content {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+    .open-all-list {
+        float: left;
+        width: 35%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        padding: 5px;
+        border:1px solid #ddd;
+        box-sizing: border-box;
+        /* background-color: red; */
+    }
+        .open-list-image img {
+            width: 100%;
+        }
+    .open-list-title {
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+        .open-list-title a {
+            color: #222;
+        }
+    .open-list-num {
+        height: 30px;
+        text-align: center;
+    } 
+        .open-list-subhead {
+            font-size: 14px;
+            color: #555;
+            line-height: 25px;
+            height: 75px;
+            text-align: center;
+        }
+/*open end*/
+
+/*about start*/
+.posts-expand {
+    border:1px solid #ddd;
+
+}
+    .posts-expand h3 {
+        font-size: 20px;
+        
+        margin: 20px 0 10px;
+
+    }
+    .posts-expand a {
+        color: #222;
+    }
+    .posts-expand p {
+        margin-bottom: 25px;
+    }
+/*about end*/
