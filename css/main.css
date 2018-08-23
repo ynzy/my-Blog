@@ -114,3 +114,22 @@ body {
             color: #fff;
         }
 /*list end*/
+/*paging start*/
+.pagination {
+    
+    margin-top: 120px;
+    text-align: left;
+}
+    .pagination span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border:1px solid rgb(44, 62, 80);
+        background-color:rgb(44, 62, 80);
+        padding: 0 10;
+        margin: 0 20;
+    }
+/*paging end*/
