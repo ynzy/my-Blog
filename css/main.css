@@ -114,6 +114,7 @@ body {
             color: #fff;
         }
 /*list end*/
+
 /*paging start*/
 .pagination {
     
@@ -133,3 +134,27 @@ body {
         margin: 0 20;
     }
 /*paging end*/
+
+/*footer start*/
+.footer {
+    min-height: 30px;
+    color:#fff;
+    background-color: rgb(44, 62, 80);
+    margin-top: 80px;
+    
+}
+    .footer-inner {
+        width:900px;
+        text-align: center;
+        line-height: 30px;
+        /* background-color: red; */
+        margin:0 auto;
+    }
+        .copyright span {
+            
+        }
+
+        .copyright span a {
+            color:#fff;
+        }
+/*footer end*/
