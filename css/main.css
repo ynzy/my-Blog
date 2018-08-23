@@ -1,7 +1,11 @@
 body {
     font-size: 14px;
 }
-
+.container{
+    width: 900px;
+    margin: 0 auto;
+    /* background-color:rgb(146, 146, 146); */
+}
 /*header start*/
 .nav-header {
     
@@ -46,6 +50,67 @@ body {
                 color: #fff;
                 margin: 0 10px;
             }
-
-
 /*header end*/
+
+/*list star*/
+.list-items {
+    display: flex;   
+    margin-top: 50px;
+}
+    .list-items-inner {
+        width: 680px;
+    }
+        .article {
+            /*单行文本溢出*/
+            overflow:hidden;     
+            white-space:nowrap;  
+            text-overflow:ellipsis;
+        }
+        .article a {
+            font-size:20px;
+            color: #000000;
+            line-height: 40px;
+        }
+        .tag-group {
+            
+        }
+        .tag-group span {
+            color: #999;
+            line-height: 40px;
+            margin-right: 20px;
+        }
+    .article-desc {
+        color: #666;
+        text-indent: 2em;
+        line-height: 30px;
+        /*多行文本溢出*/
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .list-items-icon {
+        flex: 1;
+        height: 200px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+        .book-bg {
+            background-image: url('../images/web.jpg')
+        }
+    .btn {
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius:5px;
+        background-color: rgb(44, 62, 80);
+        margin-top: 20px;
+    }
+        .btn a {
+            font-size: 13px;
+            color: #fff;
+        }
+/*list end*/
