@@ -1,0 +1,13 @@
+1、fontawesome图标引入，网址：https://fontawesome.com/?from=io
+   图床链接：http://pan.duiai.cc/pan/index1.php?Rewrite
+2、文本溢出
+        /*单行文本溢出*/
+        overflow:hidden;     
+        white-space:nowrap;  
+        text-overflow:ellipsis;
+        /*多行文本溢出*/
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
